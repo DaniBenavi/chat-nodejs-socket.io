@@ -1,0 +1,23 @@
+{
+  "name": "chat-nodejs-socket.io",
+  "version": "0.0.1",
+  "description": "Creacion de un chat usando nodejs, socketio y sql",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch ./server/index.js"
+  },
+  "author": "Danidev",
+  "license": "ISC",
+  "keywords": [],
+  "devDependencies": {
+    "express": "^4.19.2"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.6.0",
+    "dotenv": "^16.4.5",
+    "morgan": "1.10.0",
+    "socket.io": "4.7.5"
+  }
+}
